@@ -1,0 +1,47 @@
+{
+  "as_of_utc": "2026-08-08",
+  "completion_archive_sha256": "927b228156c3c5fdc817019dacf9155fc33b07a1db0059ffbc81a92951eadf2b",
+  "lean": {
+    "selector": "leanprover/lean4:v4.32.2"
+  },
+  "landrun": {
+    "repo": "https://github.com/zouuup/landrun",
+    "commit": "5ed4a3db3a4ad930d577215c6b9abaa19df7f99f"
+  },
+  "lean4export": {
+    "repo": "https://github.com/leanprover/lean4export.git",
+    "commit": "4e7915201d3f9f04470d9eae002fa695f7cdc589"
+  },
+  "comparator": {
+    "repo": "https://github.com/leanprover/comparator.git",
+    "commit": "71b52ec29e06d4b7d882726553b1ceb99a2499e0"
+  },
+  "nanoda": {
+    "repo": "https://github.com/robsimmons/nanoda_lib.git",
+    "commit": "68d5ca9db226849b41a6fff59d796ff19d0a8840"
+  },
+  "go": {
+    "version": "1.25.12"
+  },
+  "python": {
+    "version": "3.11.10"
+  },
+  "tlc": {
+    "version": "1.7.4",
+    "url": "https://github.com/tlaplus/tlaplus/releases/download/v1.7.4/tla2tools.jar",
+    "sha1": "bee4a54f3ee3d4afc347c3240ec2d9e93b075104"
+  },
+  "lrat_checker": {
+    "repo": "https://github.com/marijnheule/drat-trim.git",
+    "commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+    "binary": "lrat-check"
+  },
+  "github_actions": {
+    "checkout": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+    "setup_python": "5fda3b95a4ea91299a34e894583c3862153e4b97",
+    "setup_go": "b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+    "lean_action": "38fbc41a8c28c4cbaec22d7f7de508ec2e7c0dd9",
+    "upload_artifact": "043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+    "download_artifact": "3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c"
+  }
+}

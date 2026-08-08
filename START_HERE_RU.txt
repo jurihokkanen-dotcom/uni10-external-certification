@@ -1,0 +1,11 @@
+1. Создайте PRIVATE repository на GitHub.
+2. Распакуйте UNI10_EXTERNAL_CERTIFICATION_GITHUB_RUNNER_BROWSER.zip.
+3. Откройте папку UNI10_EXTERNAL_CERTIFICATION_GITHUB_RUNNER_BROWSER.
+4. Выделите ВСЕ файлы и папки ВНУТРИ неё.
+5. GitHub: Add file -> Upload files.
+6. Перетащите всё выделенное в окно.
+7. Commit changes.
+8. Проверьте, что существует .github/workflows/external-certification.yml.
+9. Actions -> UNI-10 External Certification Gates 1-5 -> Run workflow.
+10. После завершения скачайте artifact UNI10_EXTERNAL_CERTIFICATION_GATES_1_5_EVIDENCE.
+11. Пришлите скачанный artifact сюда без изменений.
